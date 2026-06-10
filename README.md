@@ -19,8 +19,6 @@ Soporta: YouTube, Facebook, Instagram, X (Twitter) y TikTok.
 |---|---|---|
 | **Windows** | 64 bits | ✅ Soportado |
 | **Linux** | 64 bits | ✅ Soportado |
-| **Linux** | 32 bits | ✅ Soportado |
-| **macOS** | Intel/Apple Silicon | ❌ No probado |
 
 > **Nota importante:** Este es un programa de escritorio empaquetado nativamente. No funciona en dispositivos móviles.
 
@@ -51,10 +49,9 @@ Para una gestión limpia del repositorio, los ejecutables **no** se suben direct
 1. Ve a la pestaña **Releases** en este repositorio.
 2. Crea una **New Release**.
 3. Sube los archivos `.zip` generados con la nomenclatura estándar:
-   - `DescargadorVideos_v{VERSION}_Windows_64Bits.zip`
-   - `DescargadorVideos_v{VERSION}_Linux_64Bits.zip`
-   - `DescargadorVideos_v{VERSION}_Linux_32Bits.zip`
-
+   - `DescargadorVideos_v2_Windows_64Bits.zip`
+   - `DescargadorVideos_v2_Linux_64Bits.zip`
+   
 ---
 
 ## 📥 Guía de Instalación para Usuarios
@@ -64,9 +61,9 @@ Para una gestión limpia del repositorio, los ejecutables **no** se suben direct
 2. Descomprime en una carpeta de tu preferencia.
 3. Ejecuta `DescargadorVideos.exe`. ¡No requiere instalación!
 
-### Linux (64/32 bits)
+### Linux (64 bits)
 1. Descarga el `.zip` correspondiente a tu arquitectura.
-2. Descomprime: `unzip DescargadorVideos_v{VERSION}_Linux_...zip`
+2. Descomprime: `unzip DescargadorVideos_v2_Linux_64Bits.zip`
 3. Otorga permisos: `chmod +x DescargadorVideos`
 4. Ejecuta: `./DescargadorVideos`
 
